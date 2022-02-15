@@ -11,7 +11,7 @@ nav{
 .header-top img{
   width: 100%;
 }
-.img-logo{
+.img-logo-header{
   width: 70px;
   top: 50%;
   right: 15px;
@@ -22,5 +22,25 @@ nav{
   width: 10px;
 }
 .btn{
+  border-radius: 20px;
+  display: block;
+}
+.jumbotron{
+  background-image: url(../img/jumbo-bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.my-text-box{
+  margin-top:40vh ;
+}
+.my-text-box img{
+  height: 35px;
+}
+.my-card{
+  border-radius: 20px;
+  border: ;
+}
+.my-card img{
+  width: 100%;
   border-radius: 20px;
 }
