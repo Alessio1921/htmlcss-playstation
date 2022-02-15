@@ -5,11 +5,17 @@ nav{
   font-family: Helvetica, sans-serif;
 }
 .header-top{
-  line-height: 5vh;
+  height: 5vh;
   background-color: black;
 }
 .header-top img{
   width: 100%;
+}
+.img-logo{
+  width: 70px;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
 }
 .nav-item img{
   margin-left: .4rem;
