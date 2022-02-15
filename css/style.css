@@ -21,7 +21,7 @@ nav{
   margin-left: .4rem;
   width: 10px;
 }
-.btn{
+.my-btn{
   border-radius: 20px;
   display: block;
 }
@@ -38,9 +38,25 @@ nav{
 }
 .my-card{
   border-radius: 20px;
-  border: ;
 }
 .my-card img{
   width: 100%;
-  border-radius: 20px;
+  border-radius: 19px;
+  padding: .2rem;
+}
+main img{
+  width: 100%;
+}
+/* color */
+.my-active{
+  border: solid #0070d1;
+}
+.blue{
+  background-color: #0070d1;
+}
+.txt-blue{
+  color: #0070d1;
+}
+.gray{
+  color: grey;
 }
