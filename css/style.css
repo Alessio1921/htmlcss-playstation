@@ -4,6 +4,9 @@ body{
 nav{
   font-family: Helvetica, sans-serif;
 }
+.my-btn{
+  border-radius: 20px;
+}
 /* color */
 .my-active-border{
   border:1.5px solid #0070d1;
@@ -14,9 +17,6 @@ nav{
 }
 .red{
   background-color: #cd3d0f;
-}
-.blue{
-  background-color: #0070d1;
 }
 .txt-blue{
   color: #0070d1;
@@ -43,10 +43,6 @@ nav{
   width: 10px;
 }
 /* end header */
-.my-btn{
-  border-radius: 20px;
-  display: block;
-}
 .jumbotron{
   background-image: url(../img/jumbo-bg.png);
   background-position: top;
@@ -89,4 +85,8 @@ main img{
 }
 .my-card-game img{
   border-radius: 10px;
+}
+/* section ps4 */
+.my-card-ps4{
+  border: none;
 }
