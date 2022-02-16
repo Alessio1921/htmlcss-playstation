@@ -95,9 +95,12 @@ main img{
 #ps-plus{
   background-color: #bebcbb;
 }
-#ps-plus .subscription-logo{
+.subscription-logo{
   width: 60%;
 }
 .subscription-logo img{
   width: 100%;
+}
+#ps-now{
+  background-color: #161c3b;
 }
