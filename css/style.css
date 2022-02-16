@@ -39,7 +39,7 @@ nav{
   right: 15px;
   transform: translate(0, -50%);
 }
-.nav-item img{
+.nav-item .nav-link img{
   margin-left: .4rem;
   width: 10px;
 }
@@ -48,6 +48,7 @@ nav{
   background-image: url(../img/jumbo-bg.png);
   background-position: top;
   background-repeat: no-repeat;
+  margin-top: 15vh;
 }
 .my-text-box{
   margin-top:40vh ;
@@ -125,4 +126,25 @@ footer ul li a{
 }
 .logo-footer img{
   height: 40px;
+}
+/* menu navbar */
+.my-dropdown{
+  background-color: white;
+  width: 100%;
+  border-radius: 0;
+  border: solid white;
+}
+.my-dropdown img{
+  height: 70px;
+}
+.point{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color:#0070d1 ;
+}
+/* hover */
+.my-dropdown .my-item:hover{
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(216, 216, 216);
 }
