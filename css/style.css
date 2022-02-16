@@ -104,3 +104,25 @@ main img{
 #ps-now{
   background-color: #161c3b;
 }
+/* section soial */
+.social-img{
+  width: 100px;
+  margin: 10px;
+}
+/* footer */
+footer{
+  background-color: #00439c;
+}
+footer .footer-lang img{
+  height: 1rem;
+}
+.footer-lang{
+font-size: .8rem;
+}
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+.logo-footer img{
+  height: 40px;
+}
