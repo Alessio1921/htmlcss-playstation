@@ -18,11 +18,19 @@ nav{
 .my-active{
   border-bottom: 2px solid #0070d1;
 }
-.red{
+.back-red{
   background-color: #cd3d0f;
+  color: white;
 }
-.txt-blue{
+.text-blue{
   color: #0070d1;
+}
+.back-blue{
+  background-color: #0070d1;
+  color: white;
+}
+.back-white{
+  background-color: white;
 }
 .gray{
   color: grey;
@@ -183,9 +191,26 @@ footer ul li a{
 nav .my-btn:hover{
   opacity: 50%;
 }
-#ps5 .my-btn:hover{
-  border: white;
+.my-btn{
+  padding: 2px;
+  border: solid rgba(0, 112, 209, 0);
 }
+.btn-blue:hover{
+  color: white;
+  border: solid rgba(0, 112, 209, 1);
+}
+.my-btn-red:hover{
+  color: white;
+  border: solid rgba(205, 61, 15, 1);
+}
+.my-btn-white:hover{
+  border: solid white;
+}
+.my-btn-hover{
+  padding: 5px;
+  border-radius: 20px;
+}
+/* hover card */
 .my-card-hardware:hover{
   opacity: 100%;
 }
@@ -197,6 +222,7 @@ nav .my-btn:hover{
 }
 .my-card-discount{
   transition: 1s ease-in-out;
+  cursor: pointer;
 }
 .my-card-discount:hover{
   transform: scale(1.1);
