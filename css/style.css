@@ -69,8 +69,10 @@ nav{
 main img{
   width: 100%;
 }
+/* section ps5 */
 .my-card-hardware{
   height: 100%;
+  opacity: 50%;
 }
 .my-card-hardware img{
   margin-left: 20%;
@@ -172,8 +174,30 @@ footer ul li a{
 .my-card:hover{
   border-radius: 20px;
   box-shadow: 0px 10px 10px rgb(216, 216, 216);
-  margin-top: -10px;
+  position: relative;
+  bottom: 10px;
 }
 .my-card:active{
   border:1.5px solid #0070d1;
+}
+nav .my-btn:hover{
+  opacity: 50%;
+}
+#ps5 .my-btn:hover{
+  border: white;
+}
+.my-card-hardware:hover{
+  opacity: 100%;
+}
+.my-card-game{
+  transition: 1s ease-in-out;
+}
+.my-card-game:hover{
+  transform: scale(1.1);
+}
+.my-card-discount{
+  transition: 1s ease-in-out;
+}
+.my-card-discount:hover{
+  transform: scale(1.1);
 }
